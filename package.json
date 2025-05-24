@@ -1,11 +1,21 @@
 {
-  "name": "angular-library",
+  "name": "innocent-angular-library",
   "version": "1.0.0",
   "description": "A package that displays a friendly message on installation",
   "scripts": {
     "postinstall": "node postinstall.js"
   },
-  "dependencies": {
-    "figlet": "^1.6.0"
-  }
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruonit/angular-library.git"
+  },
+  "keywords": [
+    "angular",
+    "library"
+  ],
+  "author": "cruonit",
+  "license": "MIT"
 }
